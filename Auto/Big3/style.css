@@ -1,0 +1,112 @@
+@import url('index.html');
+*{
+    margin: 0px; 
+    padding:0px;
+    box-sizing:content-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    background-image: url(/images/lakers.jpg);
+    background-attachment: fixed;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+.container{
+    width: 85%;
+    margin:50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap : 30px;
+
+
+}
+
+
+.cards{
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.image-section{
+    height: 450px;
+    background-color: antiquewhite;
+    
+}
+.cards .img-one{
+    background-image: url('/Big3/images/l3.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+ 
+
+}
+.cards .img-two{
+    background-image: url('/Big3/images/davis.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.cards .img-three{
+    background-image: url('/Big3/images/west.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.content{
+    padding: 15px 10px;
+    text-align: center;
+
+}
+.content h2{
+    letter-spacing: 2.0px;
+    
+}
+.content h3{
+    margin-top: 7px;
+    font-family: cursive;
+}
+.content p{
+    margin:15px 0px;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 2.0 px;
+    font: italic ;
+
+}
+.content a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    background-color: purple;
+    padding: 8px
+    
+}
+.content a:hover{
+    background-color: #d4bb19;
+    color: #333;
+    transition: 1s ease;
+    
+}
+.highlight{
+padding: 10px 15px;
+text-align: center;
+}
+
+.highlight a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    background-color: purple;
+    padding: 8px
+    
+}

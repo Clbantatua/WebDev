@@ -1,0 +1,64 @@
+@import url(Westbrook.html);
+@import url(Lebron.html);
+@import url(Davis.html);
+body{
+    background-image: url(/images/lakers.jpg);
+    background-attachment: fixed;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color:rgb(248, 248, 248);
+    letter-spacing: 2.0 px;
+    text-align: justify ;
+    text-indent: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    word-spacing: 5px;
+   
+}
+h1{
+    color: azure;
+    padding-top: 15px;
+    text-transform: uppercase;
+    padding-left: 800px;
+}
+h2{
+    color: azure;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+img{
+    
+    float: right;
+    opacity: inherit;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 250px;
+    border : 4px solid;
+    border-color: beige;
+    
+    
+}
+.button{
+    padding: 10px 15px;
+    text-align: center;
+    }
+    
+    .button button{
+        text-decoration: none;
+        font-size: 17px;
+        color: #fff;
+        letter-spacing: 1.5px;
+        display: inline-block;
+        background-color: purple;
+        padding: 8px
+        
+    }
+
+

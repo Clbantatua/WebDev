@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d8022b2f3e.js" crossorigin="anonymous"></script>
+
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <title> Highlights </title>
+</head>
+<body>
+    <nav class="navbar">
+        
+    </nav>
+<div class="container">
+
+    <div class="video-links-container">
+        <a href="Videos/video1.mp4" class="video-links"> Los Angeles Lakers VS Milwaukee Bucks</a>
+        <a href="Videos/video2.mp4" class="video-links"> Los Angeles Lakers VS Toronto Raptors</a>
+        <a href="Videos/video3.mp4" class="video-links"> Anthony Davis Highlights </a>
+        <a href="Videos/video4.mp4" class="video-links"> Los Angeles Lakers VS Cleveland Cavaliers </a>
+        <a href="Videos/video5.mp4" class="video-links"> Los Angeles Lakers VS Utah Jazz</a>
+        <a href="Videos/video6.mp4" class="video-links"> Los Angeles Lakers VS San Antonio Spurs</a>
+        <a href="Videos/video7.mp4" class="video-links"> Los Angeles Lakers VS Indiana Pacers</a>
+        <a href="Videos/video8.mp4" class="video-links"> Lebron James Highlights</a>
+    </div>
+
+    <div class="video-container">
+        <video src="images/video-1.mp4" loop muted controls class="video"></video>
+
+    </div>
+
+</div>
+
+<script>
+
+document.querySelectorAll('.video-links').forEach(links =>{
+    links.addEventListener('click', (e) =>{
+        e.preventDefault();
+        var src = links.getAttribute('href');
+        document.querySelector('.video').src = src;
+        document.querySelector('.video').play();
+    });
+});
+
+</script>
+    <script src="/script.js"></script>
+
+</body>
+</html>

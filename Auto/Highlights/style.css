@@ -1,0 +1,63 @@
+*{
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-image: url(/images/lakers.jpg);
+  background-attachment: fixed;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover  ;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap:5px;
+  border-radius: 5px;
+  border:2px solid rgb(143, 34, 177);
+  box-shadow: 0 10px 15px #3333;
+  background:#fff;
+  padding:20px;
+}
+
+.container .video-links-container{
+  flex:1 1 400px;
+}
+
+.container .video-container{
+  flex:1 1 400px;
+}
+
+.container .video-container .video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border:2px solid #333;
+  border-radius: 5px;
+}
+
+.container .video-links-container .video-links{
+  font-size: 20px;
+  color:#333;
+  border:2px solid #333;
+  border-radius: 5px;
+  display: block;
+  padding:10px 15px;
+  margin-bottom: 5px;
+}
+
+.container .video-links-container .video-links:nth-child(odd){
+  background:#eee;
+}
+
+.container .video-links-container .video-links:hover{
+  background:rgb(127, 41, 161);
+  color:#fff;
+}
